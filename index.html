@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Lava Jato Dell</title>
+</head>
+<body>
+    <header class="menu">
+        <div class="menu-container">
+            <a class="menu-logo" href="#"><img src="watzaap/lava.png" alt="logo"></a>
+            <nav id="my-menu-nav" class="menu-nav">
+                <ul>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#detalhes">Detalhes</a></li>
+                    <li><a href="#servico">Serviço</a></li>
+                    <li><a class="menu-agendamento-btn" href="#"><i class="fab fa-whatsapp"></i> Agendamento</a></li>
+                    <label for="switch" class="dark-mode-container">
+                        <input type="checkbox" id="switch">
+                    </label>
+                </ul>
+            </nav>
+            <span class="menu-open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+    </header>
+
+    <main class="intro">
+        <div class="intro-container">
+            <h1>Lava</h1>
+            <h1>jato <strong>DELL.</strong></h1>
+        </div>
+    </main>
+
+    <section id="detalhes" class="historia">
+        <div class="historia-container">
+            <h1>Detalhes</h1>
+            <img src="watzaap/dell.jpg" alt="historia">
+            <p>Transforme sua moto e deixe-a com aparência de nova com nosso serviço especializado em lavagem! Utilizamos um jato de alta potência para garantir que cada cantinho da sua moto fique impecável.</p>
+            <ul>
+                <li><strong>Lavagem Completa:</strong> Uso de sabão e produtos especiais para motores de motos, removendo sujeira e óleo com eficiência!</li>
+                <li><strong>Finalização Premium:</strong> Aplicação de pretinho e silicone para os pneus, proporcionando um brilho intenso e proteção!</li>
+                <li><strong>Cera Protetora:</strong> Finalizamos com cera para proteger a pintura e deixar sua moto brilhando como nunca!</li>
+            </ul>
+            <p>Venha nos visitar e dê à sua moto o cuidado que ela merece.</p>
+        </div>
+    </section>
+
+    <section id="servico" class="servico">
+        <div class="servico-container">
+            <h1>Serviço</h1>
+            <p>Trabalho somente na lavagem de moto.</p>
+            <div class="tabela">
+                <div class="tabela1">
+                    <p><strong>LAVAGEM COMPLETA</strong>................R$10</p>
+                    <p><strong>AGUA E SABÃO NO TANQUE</strong>........R$5</p>
+                </div>
+                <div class="tabela1">
+                    <p><strong>POR ASSINATURA</strong>......................R$45</p>
+                    <p><strong>LAVAGEM DETALHADA</strong>..............R$35</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="agendamento">
+        <div class="agendamento-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.414089705786!2d-44.30845582677584!3d-5.146083337809735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f6c539a7dbd6db%3A0x6a7b22f7d1a8430a!2sR.%2025%20de%20Dezembro%2C%20Gon%C3%A7alves%20Dias%20-%20MA%2C%2065675-000%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1624332694511!5m2!1spt-BR!2sus" width="520" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="agendamento-item">
+                <h1>ME CHAME PELO WHATSAPP</h1>
+                <p>Agende um horário para lavar sua moto.</p>
+                <a href="https://api.whatsapp.com/send/?phone=5599981288469&text=Ol%C3%A1+quero+lavar+minha+moto&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i> Entrar em contato</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <img src="watzaap/lava.png" alt="barber-shop">
+            <div class="footer-item">
+                <h1>Endereço</h1>
+                <p>Rua 25 de Dezembro, Gonçalves Dias, MA, ao lado do Dell Cabeleireiro</p>
+            </div>
+            <div class="footer-item">
+                <h1>Email</h1>
+                <a href="mailto:Ridelvanww@gmail.com">Ridelvanww@gmail.com</a>
+            </div>
+    
+        </div>
+    </footer>
+    
+    <div class="criador">
+        <p>Desenvolvedor - <strong>Ridelvan</strong> - 2024</p>
+    </div>
+
+    <!-- formatação js-->
+    <script src="formatacao.js"></script>
+    <!-- Ícone do WhatsApp -->
+    <a href="https://WA.me/5599981288469?text=Olá+quero+lavar+minha+moto" id="whatsapp-icon" target="_blank">
+        <img src="watzaap/watzap.png" alt="WhatsApp">
+    </a>
+</body>
+</html>
